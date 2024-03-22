@@ -599,4 +599,7 @@ body {
         /* writing-mode: vertical-rl;
         transform: rotate(180deg); */
     }
+
+    footer li{
+        font-size:1.3rem;
 }
