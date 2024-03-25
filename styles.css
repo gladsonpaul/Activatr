@@ -407,7 +407,7 @@ input[type='checkbox']:checked~.inputbox {
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-5%, 390%);
+    transform: translate(-10%, 290%);
 }
 
 .tab-pane p {
