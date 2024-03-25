@@ -584,6 +584,11 @@ footer li {
     font-size: 25px;
 }
 
+.narrow_card span{
+font-size:20px;
+    color:black;
+}
+
 /* .campaign-type input:checked~img {
     border: 3px solid black !important;
     padding: 20px !important;
