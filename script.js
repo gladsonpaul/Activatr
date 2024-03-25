@@ -1,4 +1,4 @@
-// FORM SUBMIT Script
+// FORM SUBMIT SCRIPT
 
 let subbtn = document.querySelector('#campaignform');
 
@@ -6,21 +6,30 @@ subbtn.addEventListener('submit', function (e) {
     e.preventDefault();
     // console.log('HELLO')
 
+    let selectedCampaignTypes = [];
+    let selectedmetricMeaseures = [];
 
     let checkboxes = document.getElementsByName('campaign-type');
     for (let i = 0; i < checkboxes.length; i++) {
         if (checkboxes[i].checked == true) {
-            console.log([`Campaign type : ${checkboxes[i].value}`])
+            // console.log(`Campaign type : ${checkboxes[i].value}`);
+            selectedCampaignTypes.push(checkboxes[i].value)
         }
     }
+
+
+    // console.log(checkboxes.values);
 
     let datatocollect = document.getElementsByName('datatocollect');
     for (let i = 0; i < datatocollect.length; i++) {
         if (datatocollect[i].checked == true) {
-            console.log([`Data to be collected : ${datatocollect[i].value}`])
+            // console.log([`Data to be collected : ${datatocollect[i].value}`])
+            selectedmetricMeaseures.push(checkboxes[i].value)
         }
     }
 
+    console.log(`Campaign Selected: ${selectedCampaignTypes}`)
+    console.log(`Metrics Selected: ${selectedmetricMeaseures}`)
 
     let pictime = document.getElementById('duration');
     console.log(`Picked Time: ${pictime.value}`);
