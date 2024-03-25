@@ -215,7 +215,7 @@ img {
 
 .campaign-ideas h1 {
     color: var(--violet);
-    font-size: clamp(1.25rem, -2.6563rem + 12.5vw, 4.375rem);
+    font-size: clamp(1.875rem, -0.7813rem + 8.5vw, 4rem);
     z-index: 2;
 }
 
