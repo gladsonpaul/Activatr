@@ -223,7 +223,6 @@ img {
     position: absolute;
     content: "CAMPAIGN IDEAS";
     font-family: var(--rubik-one);
-    font-size: clamp(1.25rem, -2.6563rem + 12.5vw, 4.375rem);
     color: whitesmoke;
     left: 50%;
     transform: translate(-51%, -0.3rem);
