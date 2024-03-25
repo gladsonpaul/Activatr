@@ -588,6 +588,16 @@ font-size:20px;
     color:white;
 }
 
+.btn {
+    padding: 5px 25px !important;
+    background-color: var(--violet) !important;
+    color: white !important;
+    font-family: var(--kanit) !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    border-radius: 0px !important;
+}
+
 /* .campaign-type input:checked~img {
     border: 3px solid black !important;
     padding: 20px !important;
